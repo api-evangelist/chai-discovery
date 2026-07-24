@@ -1,9 +1,14 @@
 aid: chai-discovery
 name: Chai Discovery
-description: 'Chai Discovery is a company surfaced as a portfolio company of amplify-partners, bain-capital-ventures,
-  dcvc, general-catalyst, index-ventures, menlo-ventures, sapphire-ventures and added to the API Evangelist
-  network as a stub for enrichment. Sector: digital-biology. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Chai Discovery builds frontier AI to predict and reprogram the interactions
+  between biochemical molecules. Its flagship Chai-1 is a multi-modal foundation model
+  for biomolecular structure prediction across proteins, small molecules, DNA, RNA,
+  glycans, and multi-component complexes, released as an open-source Python package
+  (Apache 2.0) and as a hosted commercial server. Chai-2 extends the platform to de
+  novo antibody design, generating novel antibodies directly from target epitopes
+  without iterative wet-lab screening. Founded in 2023, Chai Discovery is a venture-backed
+  digital-biology company whose developer surface centers on the chai_lab Python
+  package, a command-line interface, and the hosted Chai Design platform.'
 url: https://raw.githubusercontent.com/api-evangelist/chai-discovery/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -17,12 +22,31 @@ x-backed-by:
 - sapphire-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/images/GJGIRhiMoAIv0hl9KDGSIa5FCEw.png
 tags:
 - Company
 - Digital Biology
+- Structural Biology
+- Protein Structure Prediction
+- Antibody Design
+- Drug Discovery
+- Machine Learning
+- Bioinformatics
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -32,3 +56,40 @@ maintainers:
 common:
 - type: Website
   url: https://chaidiscovery.com
+- type: DeveloperPortal
+  url: https://lab.chaidiscovery.com
+- type: Documentation
+  url: https://docs.chaidiscovery.com
+- type: GettingStarted
+  url: https://github.com/chaidiscovery/chai-lab#running-the-model
+- type: SourceCode
+  url: https://github.com/chaidiscovery/chai-lab
+- type: GitHubOrganization
+  url: https://github.com/chaidiscovery
+- type: Support
+  url: https://github.com/chaidiscovery/chai-lab/discussions
+- type: Blog
+  url: https://www.chaidiscovery.com/news
+- type: SignUp
+  url: https://lab.chaidiscovery.com
+- type: TermsOfService
+  url: https://www.chaidiscovery.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.chaidiscovery.com/privacy-policy
+- type: Packages
+  url: packages/chai-discovery-packages.yml
+- type: SDKs
+  url: packages/chai-discovery-packages.yml
+- type: CLI
+  url: cli/chai-discovery-cli.yml
+- type: ChangeLog
+  url: changelog/chai-discovery-changelog.yml
+- type: LLMsTxt
+  url: llms/chai-discovery-llms.txt
+- type: DomainSecurity
+  url: security/chai-discovery-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

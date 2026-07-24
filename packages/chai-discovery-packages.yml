@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/project/chai_lab/
+packages:
+- language: python
+  registry: pypi
+  name: chai_lab
+  url: https://pypi.org/project/chai_lab/
+  install: pip install chai_lab==0.6.1
+  version: 0.6.1
+  license: Apache-2.0
+  repository: https://github.com/chaidiscovery/chai-lab
+  description: Chai Discovery tools for AI + protein research; the chai_lab package
+    runs the Chai-1 biomolecular structure prediction model locally (Linux + CUDA GPU).
+  official: true
+notes: >-
+  Single first-party client library. Chai-1 is distributed as a Python package
+  (weights + inference) rather than a REST client SDK; a hosted commercial server
+  is also offered at https://lab.chaidiscovery.com. No published npm/Maven/NuGet/Go/
+  RubyGems/Packagist/crates.io first-party packages were found.

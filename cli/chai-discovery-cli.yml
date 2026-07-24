@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/chaidiscovery/chai-lab
+cli:
+  name: chai-lab
+  package: chai_lab
+  install:
+  - pip install chai_lab==0.6.1
+  - pip install git+https://github.com/chaidiscovery/chai-lab.git
+  requirements: Linux, Python 3.10+, CUDA GPU with bfloat16 (A100/H100 80GB or L40S 48GB recommended)
+  help: chai --help
+commands:
+- command: chai-lab fold
+  summary: Predict a biomolecular structure from a FASTA input file, writing results to an output folder.
+  usage: chai-lab fold input.fasta output_folder
+  flags:
+  - name: --use-msa-server
+    summary: Generate MSAs via a remote ColabFold server for improved accuracy.
+  - name: --use-templates-server
+    summary: Use structural templates from a remote server.
+  - name: --msa-server-url
+    summary: Point at a custom ColabFold MSA server URL.
+notes: >-
+  First-party command-line interface shipped with the chai_lab Python package
+  (the binary itself is catalogued in packages/). Added in chai_lab v0.4.3
+  (2024-11-29); server URL configuration added in v0.4.4.

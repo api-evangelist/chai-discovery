@@ -1,0 +1,42 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/chaidiscovery/chai-lab/releases
+scheme: semver
+subject: chai_lab (Chai-1) Python package
+current_version: 0.6.1
+entries:
+- version: 0.6.1
+  date: '2025-03-18'
+  highlights: Relaxed torch version pin, reworked dependencies, improved template handling.
+- version: 0.6.0
+  date: '2025-02-18'
+  highlights: Template support and MSA subsampling across recycling cycles.
+- version: 0.5.2
+  date: '2024-12-24'
+  highlights: Better CIF output, covalent bond fixes, multiple diffusion samples.
+- version: 0.5.1
+  date: '2024-12-20'
+  highlights: Glycan parsing fixes.
+- version: 0.5.0
+  date: '2024-12-05'
+  breaking: false
+  highlights: Covalent bonds, glycan support, improved MSA pairing.
+- version: 0.4.4
+  date: '2024-12-02'
+  highlights: CLI enhancements including ColabFold server URL configuration.
+- version: 0.4.3
+  date: '2024-11-29'
+  highlights: Easy command-line interface (chai-lab fold).
+- version: 0.4.2
+  date: '2024-11-27'
+  highlights: License updated to Apache 2.0 for commercial use.
+- version: 0.3.0
+  date: '2024-11-19'
+  highlights: Chai-1r with user-specified restraints support.
+- version: 0.1.0
+  date: '2024-09-25'
+  highlights: Unique entity naming and metrics reporting.
+- version: 0.0.1
+  date: '2024-09-09'
+  highlights: Initial release of Chai-1.
+notes: Recent-window capture of GitHub Releases; the live releases page is the source of truth.
