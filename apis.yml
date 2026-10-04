@@ -57,7 +57,7 @@ tags:
 - Protein Structure Prediction
 - Antibody Design
 - Drug Discovery
-- Machine-Learning
+- Machine Learning
 - Bioinformatics
 - Artificial Intelligence
 tags_raw:
@@ -70,6 +70,7 @@ tags_raw:
 - Machine Learning
 - Bioinformatics
 - Artificial Intelligence
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
